@@ -1,6 +1,6 @@
-import { IRoute } from "umi-types";
+import { IRoute } from 'umi-types';
 
-const routes:IRoute[] = [
+const routes: IRoute[] = [
   {
     path: '/user',
     component: '../layouts/UserLayout',
@@ -39,6 +39,12 @@ const routes:IRoute[] = [
             authority: ['admin'],
           },
           {
+            path: '/drag',
+            name: 'Drag',
+            icon: 'drag',
+            component: './drag',
+          },
+          {
             component: './404',
           },
         ],
@@ -52,6 +58,6 @@ const routes:IRoute[] = [
   {
     component: './404',
   },
-]
+];
 
-export default routes
+export default routes;
