@@ -41,7 +41,7 @@ const routes: IRoute[] = [
           {
             path: '/drag',
             name: 'Drag',
-            icon: 'drag',
+            icon: 'icon-文档',
             component: './drag',
           },
           {

@@ -151,7 +151,7 @@ const BasicLayout: React.FC<BasicLayoutProps> = props => {
     <ProLayout
       logo={logo}
       onCollapse={handleMenuCollapse}
-      iconfontUrl="//at.alicdn.com/t/font_1478206_6fggco2xkgc.js"
+      iconfontUrl="//at.alicdn.com/t/font_1478206_fj6ao4iocxg.js"
       menuItemRender={(menuItemProps, defaultDom) => {
         if (menuItemProps.isUrl) {
           return defaultDom;
